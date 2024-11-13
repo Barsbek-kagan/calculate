@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб Калькулятор</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="number" id="num1" placeholder="Первое число">
+        <input type="number" id="num2" placeholder="Второе число">
+        
+        <button onclick="calculate('+')">Сложение</button>
+        <button onclick="calculate('-')">Вычитание</button>
+        <button onclick="calculate('/')">Деление</button>
+        <button onclick="calculate('*')">Умножение</button>
+        <div id="result">Результат: <span></span></div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
